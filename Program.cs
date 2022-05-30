@@ -15,7 +15,7 @@ namespace Ex4_Laborator4_
         }
         static void AfisareVector(int[] vector, int n)
         {
-            while (n >= vector.Length)
+            if (n >= vector.Length)
             {
                 return;
             }
